@@ -7,8 +7,8 @@ using NUnit.Framework.Interfaces;
 namespace IntegrationTestBase
 {
     /// <summary>
-    /// Base class for organisation level integration tests that require a database.
-    /// The class will generate a unique org level database name for the test class, with all tests within
+    /// Base class for integration tests that require a database.
+    /// The class will generate a unique database name for the test class, with all tests within
     /// the class sharing the same database.  If a unique database is required per test, create a new
     /// test class for each individual test.
     /// 
